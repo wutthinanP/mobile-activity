@@ -41,13 +41,13 @@
 ### 6. เพิ่มไฟล์ app/google-services.json```bash
 
 ---
-###ขันตอนสำคัญในการตั้ง SHA-1
-1.ใน Android Studio เครื่องใหม่ ให้กดแถบ Gradle (อยู่ขวาสุดของหน้าจอ)
-2.ไปที่ app > Tasks > android > signingReport (ดับเบิลคลิก)
-3.ดูที่ช่อง SHA-1 ในหน้าต่างด้านล่าง แล้วคัดลอกรหัสนั้นไว้
-4.ไปที่ Firebase Console เข้าไปที่โปรเจกต์ของคุณ
-5.ไปที่ Project Settings (ไอคอนฟันเฟือง) > แถบ General
-6.เลื่อนลงมาที่แอป Android ของคุณ กดปุ่ม "Add fingerprint" แล้ววางรหัส SHA-1 ของเครื่องใหม่ลงไป
+##ขันตอนสำคัญในการตั้ง SHA-1
+###1.ใน Android Studio เครื่องใหม่ ให้กดแถบ Gradle (อยู่ขวาสุดของหน้าจอ)
+###2.ไปที่ app > Tasks > android > signingReport (ดับเบิลคลิก)
+###3.ดูที่ช่อง SHA-1 ในหน้าต่างด้านล่าง แล้วคัดลอกรหัสนั้นไว้
+###4.ไปที่ Firebase Console เข้าไปที่โปรเจกต์ของคุณ
+###5.ไปที่ Project Settings (ไอคอนฟันเฟือง) > แถบ General
+###6.เลื่อนลงมาที่แอป Android ของคุณ กดปุ่ม "Add fingerprint" แล้ววางรหัส SHA-1 ของเครื่องใหม่ลงไป
 
 
 <img width="452" height="848" alt="image" src="https://github.com/user-attachments/assets/40c1caea-362e-4876-86e8-90f5dbcf966c" />
